@@ -21,7 +21,7 @@ struct Empleado
 };
 
 int main()
-{
+{  
     int opc;
     int cantEmpleados;
     bool archivoCreado = false;
@@ -43,7 +43,7 @@ int main()
         cout << "2.-Visualizar Empleados\n";
         cout << "3.-Visualizar al empleado del Mes\n";
         cout << "4.-Salir\n";
-        cout << "Elija su opción: ";
+        cout << "Elija su opcion: ";
         cin>> opc;
         system("cls");
 
@@ -215,7 +215,7 @@ int main()
                 cout << "Nombre: " << empleados[indiceMejorEmpleado].nombre << endl;
                 cout << "Apellido: " << empleados[indiceMejorEmpleado].apellido << endl;
                 cout << "Promedio de Ventas: $" << fixed << setprecision(2) << empleados[indiceMejorEmpleado].promV << endl;
-                cout << "Categoría: " << empleados[indiceMejorEmpleado].categoria << endl;
+                cout << "Categoria: " << empleados[indiceMejorEmpleado].categoria << endl;
                 cout<< "Presiona cualquier tecla para continuar: \n";
                 getch();
                 system("cls");
